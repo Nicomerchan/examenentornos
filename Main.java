@@ -43,7 +43,14 @@ public class Main {
                                Math.pow(radioCono, 2)));
                         System.out.print("el area del circulo es " +areaCono);
                         break;
-
+                    case 4:
+                        System.out.print("Ingrese la base del cilindro del cono: ");
+                        double radioCilindro = sc.nextDouble();
+                        System.out.print("Ingrese la altura del cilindro del cono: ");
+                        double alturaCilindro = sc.nextDouble();
+                       double areaCilindro = 2 * Math.PI * radioCilindro * (radioCilindro + alturaCilindro);
+                       case5:
+                       break;
                     default:
                                 System.out.println("Opción no válida. Inténtelo de nuevo.");
                 }
