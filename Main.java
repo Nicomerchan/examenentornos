@@ -1,6 +1,7 @@
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 import java.util.*;
+import java.math.*;
 public class Main {
     public static void main(String[] args) {
 
@@ -28,11 +29,13 @@ public class Main {
                         System.out.print("Ingrese el radio del círculo: ");
                         double radioCirculo = sc.nextDouble();
 
+                        double areaCirculo = Math.PI * Math.pow(radioCirculo, 2);
+                        System.out.print("el area del circulo es " +areaCirculo);
                         break;
                     case 3:
                         System.out.print("Ingrese el radio de la base del cono: ");
                         double radioCono = sc.nextDouble();
-                        System.out.print("Ingrese la altura del cono: ");
+                        
                         double alturaCono = sc.nextDouble();
 
                         break;
