@@ -35,9 +35,11 @@ public class Main {
                     case 3:
                         System.out.print("Ingrese el radio de la base del cono: ");
                         double radioCono = sc.nextDouble();
-                        
-                        double alturaCono = sc.nextDouble();
 
+                        double alturaCono = sc.nextDouble();
+                       double areaCono = Math.PI * radioCono * (radioCono + Math.sqrt(Math.pow(alturaCono, 2) +
+                               Math.pow(radioCono, 2)));
+                        System.out.print("el area del circulo es " +areaCono);
                         break;
 
                     default:
