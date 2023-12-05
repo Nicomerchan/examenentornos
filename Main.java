@@ -23,8 +23,10 @@ public class Main {
                         double baseTriangulo = sc.nextDouble();
                         System.out.print("Ingrese la altura del triángulo: ");
                         double alturaTriangulo = sc.nextDouble();
-
+                        double areaTriangulo =0.5 * baseTriangulo * alturaTriangulo;
+                        System.out.print("el area del circulo es " +areaTriangulo);
                         break;
+                        
                     case 2:
                         System.out.print("Ingrese el radio del círculo: ");
                         double radioCirculo = sc.nextDouble();
